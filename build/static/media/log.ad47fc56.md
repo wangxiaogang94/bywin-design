@@ -22,7 +22,7 @@
 ##
 ## 示例
 ```jsx
-import { WaterMark } from 'watermelon-design';
+import { WaterMark } from 'bywin-design';
 
 ReactDOM.render(<WaterMark text="admin" isWatermark/>,mountNode);
 

@@ -1,5 +1,7 @@
 # bywin 组件库
 
+[组件使用文档](https://wangxiaogang94.github.io/bywin-desgin/build/)。
+
 ## 开发
 ### 拉取代码
 ```
@@ -12,6 +14,8 @@ $ npm start
 ```
 ### 打包 
 ```bash
+$ npm run build
+ //下面的打包用于发布npm
 $ npm run build:commonjs
 $ npm run build:esm
 $ npm run copy-css:esm
@@ -35,22 +39,22 @@ $ npm publish
 ### 安装
 
 ```bash
-$ npm install watermelon-design --save
+$ npm install bywin-design --save
 ```
 
 ```bash
-$ yarn add watermelon-design
+$ yarn add bywin-design
 ```
 
 如果你的网络环境不佳，推荐使用 [cnpm](https://github.com/cnpm/cnpm)。
 
 ### 文档
 
-[详细文档](https://wangxiaogang94.github.io/watermelon-design/build/index.html)。
+[详细文档](https://wangxiaogang94.github.io/bywin-desgin/build/)。
 ================================================
 #### 上传的图片文件转base64
 ```
-import { fileToBase64 } from 'watermelon-design';
+import { fileToBase64 } from 'bywin-design';
 // 在antd的upload的beforeUpload中使用 可以完成前端获取上传图片
 const image = fileToBase64(file, (base64)=>{
     console.log(base64);
@@ -67,7 +71,7 @@ const image = fileToBase64(file, (base64)=>{
 >   > - Type:number
 >   > - Default: -30
 ```
-import { WaterMark } from 'watermelon-design';
+import { WaterMark } from 'bywin-design';
 
 const a = () => <WaterMark text={'admin'} isWatermark/>
 ```
@@ -75,7 +79,7 @@ const a = () => <WaterMark text={'admin'} isWatermark/>
 #### 颜色选择器 
 
 ```jsx
-import { ColorPicker } from 'watermelon-design';
+import { ColorPicker } from 'bywin-design';
 
 export default class colorpicker extends React.Component {
     state = {
@@ -142,7 +146,7 @@ menu的子属性
 ##### 示例
 
 ```jsx
-import { CircleMenu } from 'watermelon-design';
+import { CircleMenu } from 'bywin-design';
 
 
 export default class menu extends React.Component {

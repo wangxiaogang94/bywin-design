@@ -1,5 +1,5 @@
 ```jsx
-import { ColorPicker } from 'watermelon-design';
+import { ColorPicker } from 'bywin-design';
 
 export default class colorpicker extends React.Component {
     state = {

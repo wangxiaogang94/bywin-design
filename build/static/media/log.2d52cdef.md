@@ -24,7 +24,7 @@ menu的子属性
 ## 示例
 
 ```jsx
-import { CircleMenu } from 'watermelon-design';
+import { CircleMenu } from 'bywin-design';
 
 
 export default class menu extends React.Component {
