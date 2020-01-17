@@ -1,6 +1,6 @@
 {
   "name": "bywin-design",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bywin design",
   "dependencies": {
     "@svgr/webpack": "4.1.0",

@@ -4,6 +4,7 @@ import FileToBase64 from './fileToBase64';
 import Install from './install';
 import ColorPicker from './ColorPicker';
 import CircleMenu from './CircleMenu';
+import MapUtils from './MapUtils';
 
 const menu = [
     {
@@ -40,6 +41,11 @@ const menu = [
                 key: 'fileToBase64',
                 name: '图片转base64',
                 component: <FileToBase64 />,
+            },
+            {
+                key: 'mapUtils',
+                name: '地图函数',
+                component: <MapUtils />,
             },
         ],
     },
