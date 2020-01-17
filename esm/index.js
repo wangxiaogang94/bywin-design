@@ -39,6 +39,12 @@ Object.defineProperty(exports, "CircleMenu", {
     return _CircleMenu.default;
   }
 });
+Object.defineProperty(exports, "mapUtils", {
+  enumerable: true,
+  get: function get() {
+    return _mapUtils.default;
+  }
+});
 
 var _button = _interopRequireDefault(require("./button"));
 
@@ -51,5 +57,7 @@ var _WaterMark = _interopRequireDefault(require("./WaterMark"));
 var _ColorPicker = _interopRequireDefault(require("./ColorPicker"));
 
 var _CircleMenu = _interopRequireDefault(require("./CircleMenu"));
+
+var _mapUtils = _interopRequireDefault(require("./mapUtils"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
