@@ -60,7 +60,7 @@ class Index extends React.Component {
                         }}
                     >
                         <div className="logo" style={{ fontSize: 20 }}>
-                            Watermelon Design
+                            Bywin Design
                         </div>
                     </Header>
                     <Layout style={{ background: '#fff', marginTop: 20 }}>

@@ -1,7 +1,7 @@
 {
-  "name": "watermelon-design",
-  "version": "1.0.10",
-  "description": "person design",
+  "name": "bywin-design",
+  "version": "1.0.0",
+  "description": "bywin design",
   "dependencies": {
     "@svgr/webpack": "4.1.0",
     "@typescript-eslint/eslint-plugin": "1.6.0",
@@ -62,7 +62,7 @@
     "workbox-webpack-plugin": "4.2.0"
   },
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "node --max_old_space_size=4096 scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "build:commonjs": "cross-env BABEL_OUTPUT=commonjs babel src/components --out-dir lib/ --ignore **/__tests__,**/__mocks__",
@@ -153,14 +153,14 @@
   "author": "wangxiaogang94",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangxiaogang94/watermelon.git"
+    "url": "git+https://github.com/wangxiaogang94/bywin.git"
   },
   "bugs": {
-    "url": "https://github.com/wangxiaogang94/watermelon/issues"
+    "url": "https://github.com/wangxiaogang94/bywin/issues"
   },
-  "homepage": "https://wangxiaogang94.github.io/watermelon-design/build/",
+  "homepage": "https://wangxiaogang94.github.io/bywin-design/build/",
   "keywords": [
-    "watermelon",
+    "bywin",
     "watermark",
     "base64",
     "react-component",
